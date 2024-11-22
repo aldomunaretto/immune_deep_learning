@@ -61,7 +61,7 @@ Por ejemplo, con una capa oculta y dos neuronas, el modelo puede no ser capaz de
 En este video, Carlos Santana ([@DotCSV](https://twitter.com/DotCSV)) explora de manera interactiva el funcionamiento de esta herramienta visual para facilitar la comprensión de conceptos complejos en el aprendizaje profundo. Les recomiendo ver este video antes de empezar a tocar cosas con TensorFlow Playground para que tu aprendizaje sea más significativo.
 
 <a href="https://www.youtube.com/watch?v=FVozZVUNOOA" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.youtube.com/vi/FVozZVUNOOA/0.jpg" width=100% alt="Jugando con Redes Neuronales - Parte 2.5 | DotCSV">
+  <img src="https://img.youtube.com/vi/FVozZVUNOOA/0.jpg" width=100% alt="Jugando con Redes Neuronales - Parte 2.5 | DotCSV" /> 
 </a>
 
 ### TensorBoard
