@@ -7,6 +7,7 @@ Este repositorio contiene una colección de notebooks relacionados con el campo 
 El repositorio está organizado en carpetas, cada una de las cuales aborda un tema específico dentro del campo del aprendizaje profundo (Deep Learning). Algunos de los temas cubiertos incluyen:
 
 - Introducción al Deep Learning (*01_intro_DL*)
+- Redes Convolucionales (*02_CNN*)
 
 ## Ejecución de los Cuadernos
 
@@ -20,7 +21,7 @@ Este enlace le dirigirá a Google Colab, donde podrá abrir el cuaderno en un en
 
 ### Tensorflow Playground
 
-#### ¿Qué es TensorFlow Playground?
+#### 1. ¿Qué es TensorFlow Playground?
 
 [TensorFlow Playground](https://playground.tensorflow.org/ "TensorFlow Playground") es una aplicación web interactiva que permite simular redes neuronales densamente conectadas directamente en el navegador, ofreciendo resultados en tiempo real. Desarrollada en JavaScript, esta herramienta facilita la comprensión de cómo funcionan las redes neuronales al permitir la manipulación de diversos parámetros y la observación inmediata de sus efectos.
 
@@ -29,7 +30,7 @@ Con TensorFlow Playground, puedes:
 * **Configurar la arquitectura de la red** : Añadir hasta 6 capas ocultas, con un máximo de 8 neuronas por capa.
 * **Visualizar métricas de rendimiento** : Observar la "Training loss" (pérdida en entrenamiento) y la "Test loss" (pérdida en pruebas) para evaluar la eficacia y generalización del modelo.
 
-#### Interfaz de TensorFlow Playground
+#### 2. Interfaz de TensorFlow Playground
 
 Aunque en la propia herramienta online tienes explicaciones de cómo se utiliza, a continuación te dejo una breve explicación de la interfaz.
 
@@ -46,7 +47,7 @@ La interfaz de TensorFlow Playground es intuitiva y está dividida en varias sec
 * **Output** : Capa de salida o resultado.
 * **Parámetros adicionales** : En la parte superior, puedes ajustar parámetros como la tasa de aprendizaje, la función de activación y la regularización.
 
-#### Proceso de entrenamiento
+#### 3. Proceso de entrenamiento
 
 1. **Configura la red neuronal** : Define el número de capas ocultas y el número de neuronas en cada una.
 2. **Inicia el entrenamiento** : Haz clic en el botón "play" para comenzar.
@@ -56,7 +57,7 @@ Por ejemplo, con una capa oculta y dos neuronas, el modelo puede no ser capaz de
 
 ![1732309777423](image/README/1732309777423.png)
 
-#### Primeros pasos con TensorFlow Playground
+#### 4. Primeros pasos con TensorFlow Playground
 
 En este video, Carlos Santana ([@DotCSV](https://twitter.com/DotCSV)) explora de manera interactiva el funcionamiento de esta herramienta visual para facilitar la comprensión de conceptos complejos en el aprendizaje profundo. Les recomiendo ver este video antes de empezar a tocar cosas con TensorFlow Playground para que tu aprendizaje sea más significativo.
 
@@ -67,7 +68,6 @@ En este video, Carlos Santana ([@DotCSV](https://twitter.com/DotCSV)) explora de
   </a>
 </div>
 
-*Nota: Para abrir el video en una nueva pestaña, haz clic derecho en la imagen y selecciona "Abrir enlace en una pestaña nueva".*
 
 ### TensorBoard
 
