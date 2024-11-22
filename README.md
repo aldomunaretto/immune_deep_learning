@@ -33,8 +33,9 @@ Con TensorFlow Playground, puedes:
 
 Aunque en la propia herramienta online tienes explicaciones de cómo se utiliza, a continuación te dejo una breve explicación de la interfaz.
 
-![1732309849014](image/README/1732309849014.png)
-
+<div align="center">
+  <img src="image/README/1732309849014.png" alt="Descripción de la imagen" width=100%>
+</div>
 
 La interfaz de TensorFlow Playground es intuitiva y está dividida en varias secciones clave:
 
@@ -59,7 +60,9 @@ Por ejemplo, con una capa oculta y dos neuronas, el modelo puede no ser capaz de
 
 En este video, Carlos Santana ([@DotCSV](https://twitter.com/DotCSV)) explora de manera interactiva el funcionamiento de esta herramienta visual para facilitar la comprensión de conceptos complejos en el aprendizaje profundo. Les recomiendo ver este video antes de empezar a tocar cosas con TensorFlow Playground para que tu aprendizaje sea más significativo.
 
-[![Jugando con Redes Neuronales - Parte 2.5 | DotCSV](https://img.youtube.com/vi/FVozZVUNOOA/0.jpg)](https://www.youtube.com/watch?v=FVozZVUNOOA)
+<a href="https://www.youtube.com/watch?v=FVozZVUNOOA" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.youtube.com/vi/FVozZVUNOOA/0.jpg" width=100% alt="Jugando con Redes Neuronales - Parte 2.5 | DotCSV">
+</a>
 
 ### TensorBoard
 
@@ -68,5 +71,3 @@ En este video, Carlos Santana ([@DotCSV](https://twitter.com/DotCSV)) explora de
 ## Enlaces de Interes
 
 [Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](http://www.deeplearningbook.org/ "http://www.deeplearningbook.org/")
-
-[TensorBoard: Visualize your model&#39;s training metrics](https://www.tensorflow.org/tensorboard "TensorBoard Documentation")
