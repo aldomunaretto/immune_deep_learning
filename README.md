@@ -77,9 +77,9 @@ En este video, Carlos Santana ([@DotCSV](https://twitter.com/DotCSV)) explora de
 
 En la imagen a continuación, se puede ver el panel de visualización de gráficos de TensorBoard. El panel contiene diferentes pestañas, que están vinculadas al nivel de información que agrega cuando ejecuta el modelo.
 
-
-![1732534926932](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/aldo.munaretto/OneDrive%20-%20AGGITY%20EUROPE%2C%20S.A/Documentos/Repos/immune_deep_learning/image/README/1732534926932.png)
-
+<div align="center">
+  <img src="image/README/1732534926932.png" alt="Explicabilidad del Modelo">
+</div>
 
 * **Panel de Escalares (Scalars Dashboard)**: Visualiza métricas como pérdida, precisión y tasa de aprendizaje a lo largo de las épocas. Esto ayuda a identificar tendencias durante el entrenamiento y garantiza la convergencia del modelo.
 * **Gráficos (Graphs):** Inspecciona y depura el gráfico computacional de tu modelo de TensorFlow. Esta característica permite comprender la estructura de modelos complejos y el flujo de tensores entre capas.
@@ -100,9 +100,9 @@ En la imagen a continuación, se puede ver el panel de visualización de gráfic
 El gráfico ilustra cómo funciona un modelo de red neuronal utilizando **TensorBoard** para comprender mejor el flujo de datos y operaciones. Cada paso está numerado para facilitar la interpretación:
 
 1. **Poner en cola los datos en el modelo** :
-   Los datos se envían al modelo en lotes del tamaño definido ( *batch size* ). Esto representa la cantidad de muestras que serán procesadas por el modelo en cada iteración de entrenamiento. El componente `enqueue_in...` es responsable de alimentar datos desde las fuentes al sistema.
+   Los datos se envían al modelo en lotes del tamaño definido ( *batch size* ). Esto representa la cantidad de muestras que serán procesadas por el modelo en cada iteración de entrenamiento. El componente `enqueue_in` es responsable de alimentar datos desde las fuentes al sistema.
 2. **Alimentar los datos al tensor FIFO** :
-   Los datos entrantes son organizados y manejados mediante una cola FIFO (`fifo_queue...`) para garantizar que se procesen en el orden correcto. Este paso regula la entrega eficiente de datos a la red neuronal.
+   Los datos entrantes son organizados y manejados mediante una cola FIFO (`fifo_queue`) para garantizar que se procesen en el orden correcto. Este paso regula la entrega eficiente de datos a la red neuronal.
 3. **Entrenamiento del modelo** :
    El bloque `dnn` (Deep Neural Network) representa el corazón del modelo, donde se realizan las operaciones de entrenamiento. Durante esta etapa, el modelo ajusta sus parámetros (pesos y sesgos) para minimizar la función de pérdida, utilizando los datos provenientes de la cola FIFO.
 4. **Seguimiento de las iteraciones** :
