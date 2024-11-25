@@ -61,18 +61,128 @@ Por ejemplo, con una capa oculta y dos neuronas, el modelo puede no ser capaz de
 
 En este video, Carlos Santana ([@DotCSV](https://twitter.com/DotCSV)) explora de manera interactiva el funcionamiento de esta herramienta visual para facilitar la comprensión de conceptos complejos en el aprendizaje profundo. Les recomiendo ver este video antes de empezar a tocar cosas con TensorFlow Playground para que tu aprendizaje sea más significativo.
 
-
 <div align="center">
   <a href="https://www.youtube.com/watch?v=FVozZVUNOOA">
     <img src="https://img.youtube.com/vi/FVozZVUNOOA/0.jpg" alt="Jugando con Redes Neuronales - Parte 2.5 | DotCSV" />
   </a>
 </div>
 
-
 ### TensorBoard
 
-[TensorBoard: Visualize your model&#39;s training metrics](https://www.tensorflow.org/tensorboard "TensorBoard Documentation")
+#### 1. ¿Qué es TensorBoard?
+
+[TensorBoard](https://www.tensorflow.org/tensorboard) es una herramienta de visualización diseñada para proporcionar información sobre los flujos de trabajo de aprendizaje automático en TensorFlow. Permite monitorear métricas, comprender el rendimiento del modelo y depurar experimentos de machine learning de manera visual.
+
+#### 2. Características principales de TensorBoard
+
+En la imagen a continuación, se puede ver el panel de visualización de gráficos de TensorBoard. El panel contiene diferentes pestañas, que están vinculadas al nivel de información que agrega cuando ejecuta el modelo.
+
+
+![1732534926932](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/aldo.munaretto/OneDrive%20-%20AGGITY%20EUROPE%2C%20S.A/Documentos/Repos/immune_deep_learning/image/README/1732534926932.png)
+
+
+* **Panel de Escalares (Scalars Dashboard)**: Visualiza métricas como pérdida, precisión y tasa de aprendizaje a lo largo de las épocas. Esto ayuda a identificar tendencias durante el entrenamiento y garantiza la convergencia del modelo.
+* **Gráficos (Graphs):** Inspecciona y depura el gráfico computacional de tu modelo de TensorFlow. Esta característica permite comprender la estructura de modelos complejos y el flujo de tensores entre capas.
+* **Histogramas:** Monitorea la distribución de pesos, sesgos u otros tensores a lo largo del tiempo. Esto ayuda a identificar problemas como gradientes que se desvanecen o explotan.
+* **Imágenes:** Visualiza imágenes generadas durante el entrenamiento o la prueba, como datos de entrada, salidas reconstruidas o filtros.
+* **Texto:** Muestra datos de texto, como predicciones o salidas tokenizadas, para analizar el rendimiento.
+* **Visualizador de Embeddings:** Analiza datos de alta dimensionalidad, como embeddings de palabras, proyectándolos en espacios de menor dimensión (por ejemplo, 2D o 3D).
+* **Ajuste de Hiperparámetros:** Visualiza el efecto de diferentes combinaciones de hiperparámetros y compara múltiples ejecuciones en un único panel.
+
+#### 3. Visualización del modelo en TensorBoard
+
+<div align="center">
+  <img src="image/README/1732535187432.png" alt="Explicabilidad del Modelo">
+</div>
+
+
+
+El gráfico ilustra cómo funciona un modelo de red neuronal utilizando **TensorBoard** para comprender mejor el flujo de datos y operaciones. Cada paso está numerado para facilitar la interpretación:
+
+1. **Poner en cola los datos en el modelo** :
+   Los datos se envían al modelo en lotes del tamaño definido ( *batch size* ). Esto representa la cantidad de muestras que serán procesadas por el modelo en cada iteración de entrenamiento. El componente `enqueue_in...` es responsable de alimentar datos desde las fuentes al sistema.
+2. **Alimentar los datos al tensor FIFO** :
+   Los datos entrantes son organizados y manejados mediante una cola FIFO (`fifo_queue...`) para garantizar que se procesen en el orden correcto. Este paso regula la entrega eficiente de datos a la red neuronal.
+3. **Entrenamiento del modelo** :
+   El bloque `dnn` (Deep Neural Network) representa el corazón del modelo, donde se realizan las operaciones de entrenamiento. Durante esta etapa, el modelo ajusta sus parámetros (pesos y sesgos) para minimizar la función de pérdida, utilizando los datos provenientes de la cola FIFO.
+4. **Seguimiento de las iteraciones** :
+   El tensor `global_step` registra el número de lotes procesados durante el entrenamiento. Este valor puede utilizarse para monitorear el progreso y sincronizar otras operaciones relacionadas con el entrenamiento.
+5. **Guardado del modelo** :
+   Finalmente, los parámetros ajustados del modelo se guardan en el disco (`save`) para garantizar que puedan reutilizarse o evaluarse más tarde. Este proceso incluye guardar tensores esenciales que representan el estado actual del modelo.
+
+#### 4. ¿En qué ayuda el uso de TensorBoard?
+
+TensorBoard transforma las redes neuronales de "cajas negras" a sistemas visualizables y comprensibles. Esta herramienta actúa como una "linterna", proporcionando una perspectiva detallada de cómo se calculan los pesos, las dependencias entre operaciones y métricas clave como la función de pérdida.
+
+* **Visualización en tiempo real** : TensorBoard actualiza las métricas regularmente durante el entrenamiento, lo que elimina la necesidad de esperar hasta que termine el proceso. Puedes inspeccionar el estado del modelo y realizar ajustes si algo no parece correcto.
+* **Depuración y optimización** : Al observar el flujo del modelo y las métricas durante el entrenamiento, TensorBoard ayuda a identificar problemas como configuraciones incorrectas, sobreajuste o errores en los datos.
+
+Para darles una idea de lo útil que puede ser el uso de TensorBoard, mire la siguiente imagen:
+
+<div align="center">
+  <img src="image/README/1732536786334.png" alt="TensorBoard en Google Colab">
+</div>
+
+
+La imagen muestra cómo el comportamiento de un modelo de red neuronal depende de la configuración adecuada de la **tasa de aprendizaje** y la  **función de pérdida** . Estos elementos son esenciales para garantizar que el modelo aprenda correctamente y alcance buenos resultados.
+
+**¿Qué es la función de pérdida?**
+
+La **función de pérdida** es una métrica clave que evalúa qué tan lejos están las predicciones del modelo respecto a los valores reales. El objetivo durante el entrenamiento es  **minimizar la función de pérdida** , lo que indica que el modelo está cometiendo menos errores. A medida que el entrenamiento progresa, se espera que la pérdida disminuya hasta estabilizarse en una línea plana, lo cual sugiere que el modelo ha encontrado una solución adecuada.
+
+**El rol de la tasa de aprendizaje**
+
+La **tasa de aprendizaje** controla la velocidad a la que el modelo ajusta sus parámetros durante el entrenamiento. Configurar este valor correctamente es crucial:
+
+1. **Tasa de aprendizaje demasiado alta** **(gráfico de la izquierda):**
+   La línea de pérdida sube y baja de manera errática sin mostrar una disminución clara. Esto indica que el modelo está aprendiendo de manera inestable, sin tiempo suficiente para ajustar correctamente sus parámetros. En este caso, las predicciones son el resultado de conjeturas aleatorias, y el modelo no aprende nada útil.
+2. **Tasa de aprendizaje adecuada (gráfico de la derecha):**
+   La línea de pérdida muestra una disminución progresiva durante las iteraciones, hasta estabilizarse en un valor bajo. Esto significa que el modelo está aprendiendo de manera eficiente, ajustando sus parámetros correctamente y logrando una solución óptima.
+
+#### 5. Cómo usar TensorBoard en Google Colab
+
+* **Cargar la extensión en el Notebook**
+
+```bash
+%load_ext tensorboard
+```
+
+* **Inicia TensorBoard**
+
+Ejecuta el servidor de TensorBoard y señala el directorio de registros:
+
+```bash
+%tensorboard --logdir logs
+```
+
+
+<div align="center">
+  <img src="image/README/1732535347448.png" alt="TensorBoard en Google Colab">
+</div>
+
+
+#### 6. Consejos para un uso efectivo
+
+* **Organiza los directorios de registros**: Usa directorios separados para diferentes experimentos para evitar sobrescribir registros.
+* **Compara experimentos**: Inicia TensorBoard con múltiples directorios de registro para comparar experimentos.
+* **Minimiza el registro innecesario:** Evita registrar datos excesivos para prevenir ralentizaciones.
+* **Para obtener un modelo efectivo**:
+
+  * Diseña una arquitectura adecuada para la red neuronal (número de capas y neuronas por capa).
+  * Configura una función de pérdida que permita evaluar las predicciones del modelo.
+  * Ajusta la tasa de aprendizaje para garantizar un aprendizaje estable y progresivo.
 
 ## Enlaces de Interes
 
 [Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](http://www.deeplearningbook.org/ "http://www.deeplearningbook.org/")
+
+Funciones de Activación:
+
+* [Deep Sparse Rectifier Neural Networks by Xavier Glorot,  Antoine Bordes, Yoshua Bengio](https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf "https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf")
+
+TensorBoard
+
+* [Empiece a utilizar TensorBoard](https://www.tensorflow.org/tensorboard/get_started "https://www.tensorflow.org/tensorboard/get_started")
+* [Deep Dive Into TensorBoard: Tutorial With Examples](https://neptune.ai/blog/tensorboard-tutorial "https://neptune.ai/blog/tensorboard-tutorial")
+* [Tensorboard Tutorial: The Ultimate Guide](https://zito-relova.medium.com/tensorboard-tutorial-5d482d270f08 "https://zito-relova.medium.com/tensorboard-tutorial-5d482d270f08")
+* [Entendiendo un modelo de regresión lineal con TensorBoard](https://adictosaltrabajo.com/2020/12/18/entendiendo-un-modelo-de-regresion-lineal-con-tensorboard/ "https://adictosaltrabajo.com/2020/12/18/entendiendo-un-modelo-de-regresion-lineal-con-tensorboard/")
