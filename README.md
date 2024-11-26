@@ -176,9 +176,24 @@ Ejecuta el servidor de TensorBoard y señala el directorio de registros:
 
 [Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville](http://www.deeplearningbook.org/ "http://www.deeplearningbook.org/")
 
+[Neural Networks and Deep Learning By Michael Nielsen](http://neuralnetworksanddeeplearning.com/ "http://neuralnetworksanddeeplearning.com/")
+
 Funciones de Activación:
 
 * [Deep Sparse Rectifier Neural Networks by Xavier Glorot,  Antoine Bordes, Yoshua Bengio](https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf "https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf")
+
+Funciones de Coste:
+
+* [A list of cost functions used in neural networks, alongside applications](https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications "https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications")
+
+Redes Neuronales
+
+* [A Neural Network in 11 lines of Python (Part 1)](https://iamtrask.github.io/2015/07/12/basic-python-network/ "https://iamtrask.github.io/2015/07/12/basic-python-network/")
+* [A Neural Network in 13 lines of Python (Part 2 - Gradient Descent)](https://iamtrask.github.io/2015/07/27/python-network-part2/ "https://iamtrask.github.io/2015/07/27/python-network-part2/")
+
+TensorFlow
+
+* [Instructivos de TensorFlow](https://www.tensorflow.org/tutorials "https://www.tensorflow.org/tutorials")
 
 TensorBoard
 
