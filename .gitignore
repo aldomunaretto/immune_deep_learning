@@ -144,3 +144,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Mac OS X Finder
+.DS_Store
+
+# Folder for old files
+old_files/

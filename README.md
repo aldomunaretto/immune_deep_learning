@@ -1,6 +1,6 @@
 # Material de Deep Learning
 
-Este repositorio contiene una colección de notebooks relacionados con el campo de Deep Learning.
+Este repositorio contiene documentación (notebooks, ficheros pdf y enlaces) relacionados con el campo de Deep Learning.
 
 ## Contenido
 
@@ -201,3 +201,15 @@ TensorBoard
 * [Deep Dive Into TensorBoard: Tutorial With Examples](https://neptune.ai/blog/tensorboard-tutorial "https://neptune.ai/blog/tensorboard-tutorial")
 * [Tensorboard Tutorial: The Ultimate Guide](https://zito-relova.medium.com/tensorboard-tutorial-5d482d270f08 "https://zito-relova.medium.com/tensorboard-tutorial-5d482d270f08")
 * [Entendiendo un modelo de regresión lineal con TensorBoard](https://adictosaltrabajo.com/2020/12/18/entendiendo-un-modelo-de-regresion-lineal-con-tensorboard/ "https://adictosaltrabajo.com/2020/12/18/entendiendo-un-modelo-de-regresion-lineal-con-tensorboard/")
+
+Keras 3
+
+* [Documentación](https://keras.io/keras_3/ "https://keras.io/keras_3/")
+* [API](https://keras.io/api/ "https://keras.io/api/")
+
+SciKeras
+
+* [Documentación](https://www.adriangb.com/scikeras/ "https://www.adriangb.com/scikeras/")
+* [Repositorio](https://github.com/adriangb/scikeras "https://github.com/adriangb/scikeras")
+* [PyPi](https://pypi.org/project/scikeras/ "https://pypi.org/project/scikeras/")
+* [Use Keras Deep Learning Models with Scikit-Learn in Python](https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/ "https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/")
