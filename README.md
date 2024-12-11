@@ -213,3 +213,6 @@ SciKeras
 * [Repositorio](https://github.com/adriangb/scikeras "https://github.com/adriangb/scikeras")
 * [PyPi](https://pypi.org/project/scikeras/ "https://pypi.org/project/scikeras/")
 * [Use Keras Deep Learning Models with Scikit-Learn in Python](https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/ "https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/")
+
+Redes Convolucionales
+* [2D Visualization of a Convolutional Neural Network](https://adamharley.com/nn_vis/cnn/2d.html)
