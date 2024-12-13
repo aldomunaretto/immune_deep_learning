@@ -215,6 +215,7 @@ SciKeras
 * [Use Keras Deep Learning Models with Scikit-Learn in Python](https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/ "https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/")
 
 Redes Convolucionales
+* [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/)
 * [2D Visualization of a Convolutional Neural Network](https://adamharley.com/nn_vis/cnn/2d.html)
 * [Image Kernels Explained Visually](https://setosa.io/ev/image-kernels/)
 * [Convolution arithmetic](https://github.com/vdumoulin/conv_arithmetic)
