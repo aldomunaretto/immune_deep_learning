@@ -216,3 +216,6 @@ SciKeras
 
 Redes Convolucionales
 * [2D Visualization of a Convolutional Neural Network](https://adamharley.com/nn_vis/cnn/2d.html)
+* [Image Kernels Explained Visually](https://setosa.io/ev/image-kernels/)
+* [Convolution arithmetic](https://github.com/vdumoulin/conv_arithmetic)
+* [WaveNet: A generative model for raw audio](https://deepmind.google/discover/blog/wavenet-a-generative-model-for-raw-audio/)
