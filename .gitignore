@@ -150,3 +150,7 @@ cython_debug/
 
 # Folder for old files
 old_files/
+old/
+
+# Folder for solved notebooks
+07_solved/

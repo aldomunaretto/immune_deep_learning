@@ -220,3 +220,6 @@ Redes Convolucionales
 * [Image Kernels Explained Visually](https://setosa.io/ev/image-kernels/)
 * [Convolution arithmetic](https://github.com/vdumoulin/conv_arithmetic)
 * [WaveNet: A generative model for raw audio](https://deepmind.google/discover/blog/wavenet-a-generative-model-for-raw-audio/)
+
+Redes Recurrentes
+* [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
