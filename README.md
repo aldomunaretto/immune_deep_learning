@@ -222,4 +222,12 @@ Redes Convolucionales
 * [WaveNet: A generative model for raw audio](https://deepmind.google/discover/blog/wavenet-a-generative-model-for-raw-audio/)
 
 Redes Recurrentes
+* [Long Short-Term Memory](http://bioinf.jku.at/publications/older/2604.pdf)
 * [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [Learning long-term dependencies with gradient descent is difficult](https://www.comp.hkbu.edu.hk/~markus/teaching/comp7650/tnn-94-gradient.pdf)
+* [On the difficulty of training recurrent neural networks](https://proceedings.mlr.press/v28/pascanu13.pdf)
+* [Understanding LSTM and its diagrams](https://blog.mlreview.com/understanding-lstm-and-its-diagrams-37e2f46f1714)
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+* [Visualizing and Understanding Recurrent Networks](https://arxiv.org/abs/1506.02078)
+* [LSTM: A Search Space Odyssey](https://arxiv.org/abs/1503.04069)
+
