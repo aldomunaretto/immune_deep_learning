@@ -230,4 +230,4 @@ Redes Recurrentes
 * [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * [Visualizing and Understanding Recurrent Networks](https://arxiv.org/abs/1506.02078)
 * [LSTM: A Search Space Odyssey](https://arxiv.org/abs/1503.04069)
-
+* [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
