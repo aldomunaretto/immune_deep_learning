@@ -244,3 +244,6 @@ Procesamiento del Lenguaje Natural
 * [Illustrated Guide to Transformer](https://jinglescode.github.io/2020/05/27/illustrated-guide-transformer/)
 * [Illustrated Guide to Transformers- Step by Step Explanation](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
 * [Step-by-Step Illustrated Explanations of Transformer](https://medium.com/the-modern-scientist/detailed-explanations-of-transformer-step-by-step-dc32d90b3a98)
+* [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781)
+* [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+* [Deep contextualized word representations](https://arxiv.org/abs/1802.05365)
