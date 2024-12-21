@@ -231,3 +231,16 @@ Redes Recurrentes
 * [Visualizing and Understanding Recurrent Networks](https://arxiv.org/abs/1506.02078)
 * [LSTM: A Search Space Odyssey](https://arxiv.org/abs/1503.04069)
 * [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+* [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://arxiv.org/pdf/1406.1078v3)
+
+Procesamiento del Lenguaje Natural
+* [How Google's Knowledge Graph works](https://support.google.com/knowledgepanel/answer/9787176)
+* [Knowledge Representation & NLP in AI](https://www.tutorialride.com/artificial-intelligence/knowledge-representation-nlp-in-ai.htm)
+* [Natural Language Processing and Machine Learning](https://insights.encora.com/insights/natural-language-processing-and-machine-learning)
+* [Deep Belief Networks — all you need to know](https://icecreamlabs.medium.com/deep-belief-networks-all-you-need-to-know-68aa9a71cc53)
+* [A Brief History of Natural Language Processing — Part 1](https://medium.com/@antoine.louis/a-brief-history-of-natural-language-processing-part-1-ffbcb937ebce)
+* [A Brief History of Natural Language Processing — Part 2](https://medium.com/@antoine.louis/a-brief-history-of-natural-language-processing-part-2-f5e575e8e37)
+* [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+* [Illustrated Guide to Transformer](https://jinglescode.github.io/2020/05/27/illustrated-guide-transformer/)
+* [Illustrated Guide to Transformers- Step by Step Explanation](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
+* [Step-by-Step Illustrated Explanations of Transformer](https://medium.com/the-modern-scientist/detailed-explanations-of-transformer-step-by-step-dc32d90b3a98)
