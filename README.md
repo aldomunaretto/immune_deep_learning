@@ -247,3 +247,5 @@ Procesamiento del Lenguaje Natural
 * [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781)
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 * [Deep contextualized word representations](https://arxiv.org/abs/1802.05365)
+
+* [ONNX](https://onnx.ai/)
