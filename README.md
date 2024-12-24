@@ -214,14 +214,20 @@ SciKeras
 * [PyPi](https://pypi.org/project/scikeras/ "https://pypi.org/project/scikeras/")
 * [Use Keras Deep Learning Models with Scikit-Learn in Python](https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/ "https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/")
 
+Formato para guardar modelos
+* [ONNX](https://onnx.ai/)
+
 Redes Convolucionales
+
 * [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/convolutional-networks/)
+* [The History of Convolutional Neural Networks for Image Classification (1989 - Today)](https://towardsdatascience.com/the-history-of-convolutional-neural-networks-for-image-classification-1989-today-5ea8a5c5fe20)
 * [2D Visualization of a Convolutional Neural Network](https://adamharley.com/nn_vis/cnn/2d.html)
 * [Image Kernels Explained Visually](https://setosa.io/ev/image-kernels/)
 * [Convolution arithmetic](https://github.com/vdumoulin/conv_arithmetic)
 * [WaveNet: A generative model for raw audio](https://deepmind.google/discover/blog/wavenet-a-generative-model-for-raw-audio/)
 
 Redes Recurrentes
+
 * [Long Short-Term Memory](http://bioinf.jku.at/publications/older/2604.pdf)
 * [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * [Learning long-term dependencies with gradient descent is difficult](https://www.comp.hkbu.edu.hk/~markus/teaching/comp7650/tnn-94-gradient.pdf)
@@ -234,6 +240,7 @@ Redes Recurrentes
 * [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://arxiv.org/pdf/1406.1078v3)
 
 Procesamiento del Lenguaje Natural
+
 * [How Google's Knowledge Graph works](https://support.google.com/knowledgepanel/answer/9787176)
 * [Knowledge Representation & NLP in AI](https://www.tutorialride.com/artificial-intelligence/knowledge-representation-nlp-in-ai.htm)
 * [Natural Language Processing and Machine Learning](https://insights.encora.com/insights/natural-language-processing-and-machine-learning)
@@ -247,5 +254,3 @@ Procesamiento del Lenguaje Natural
 * [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781)
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 * [Deep contextualized word representations](https://arxiv.org/abs/1802.05365)
-
-* [ONNX](https://onnx.ai/)

@@ -154,3 +154,6 @@ old/
 
 # Folder for solved notebooks
 07_solved/
+
+# Chromedriver
+chromedriver
